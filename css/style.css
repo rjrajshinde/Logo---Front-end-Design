@@ -1,0 +1,452 @@
+/* font face starts */
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+  }
+/* font face ends */
+
+/* body style starts */
+body{
+    font-family: roboto;
+}
+/* body style ends */
+
+/* header section starts here */
+#header{
+    background: url("/images/Rectangle1.png") no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: left;
+    
+}
+#header .navbar-nav{
+    margin-left: 15%;
+}
+#header .header{
+    margin-left: 50px;
+}
+#header .title{
+    margin-top: 10%;
+    color: white;
+    margin-left: 65px;
+}
+#header .title .h2{
+    font-size: 50px;
+}
+#header .navbar-brand{
+    font-weight: bolder;
+}
+#header .title .btn{
+    font-size: small;
+}
+#header .title_para{
+    font-size: small;
+}
+
+#header a:hover{
+    color: #000000;
+}
+/* header section ends here */
+
+/* our services start here */
+/* our_services starts */
+#our_services {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+    margin-top: 100px;
+    
+}
+#our_services .text{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #2370C8;
+}
+#our_services .para{
+    font-size: 30px;
+    text-align: center;
+    font-family:Roboto;
+    line-height: 30px;
+    color: rgba(38, 42, 78, 1);
+}
+
+#our_services .card1{
+    background-color: rgb(229, 243, 254);
+    height: 316px;
+    border: 2px solid rgb(35, 112, 200);
+}
+
+#our_services .card{
+    background-color:rgba(229, 243, 254, 1);
+    border: 3px solid rgb(207, 234, 255);
+    height: 337px;
+}
+
+#our_services .title{
+    font-family: Roboto;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+#our_services .cardtext{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color:rgba(100, 100, 100, 1);
+}
+
+#our_services .fa{
+   padding-top: 20px;
+   font-size: 70px;
+   color: rgb(199, 233, 255);
+}
+
+#our_services .fa-angle-right{
+    margin-left: -3px;
+    
+}
+#our_services .cards{
+    margin-left: 30px;
+}
+
+
+#our_services .btn-circle {
+    width: 30px;
+    height: 30px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+  }
+  
+#services .btn-circle i {
+    position: relative;
+    top: -4px;
+}
+  
+#services .btn-circle-sm {
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    font-size: 1.2rem;
+}
+/* our services ends here */
+
+/* about us css start here */
+#about-us{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#about-us .about-us-container .image{
+    width: 370px;
+    height: 370px;
+}
+#about-us .about-us-textcontainer .h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: #2370C8;
+}
+#about-us .about-us-textcontainer .h2{
+    margin-top: 20px;
+}
+
+#about-us .about-us-textcontainer .p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #646464;
+}
+#about-us .about-us-textcontainer .p1{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #646464;
+}
+#about-us .about-us-textcontainer .button1{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* about us css end here */
+
+/* faint blue background cards css starts here  */
+#faint-blue-cards{
+    margin-top: 100px;
+    background-color: #F2F9FF;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#faint-blue-cards .container{
+    /* margin: 50px 50px 50px 50px; */
+    padding:50px 150px 50px 50px;
+    border: 5px solid white;
+}
+
+#faint-blue-cards .container .cards{
+    margin-left: 50px;
+    width: 18rem;
+    background-color: #F2F9FF;
+}
+#faint-blue-cards .container .image{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+#faint-blue-cards .container .cards .card-title{
+    font-size: 19px;
+}
+#faint-blue-cards .container .cards .card-text{
+    font-size: 13px;
+}
+
+/* faint blue background cards css ends here  */
+
+/* our Portfolio css starts here */
+#our-portfolio{
+    margin-top: 100px;
+}
+#our-portfolio .container .h6{
+    color: #2370C8;
+    font-weight: 600;
+}
+#our-portfolio .block-container .image{
+    width: 350px;
+    height: 350px;
+}
+#our-portfolio .btn-circle {
+    width: 30px;
+    height: 30px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+  }
+  
+#our-portfolio .btn-circle i {
+    position: relative;
+    top: -1px;
+}
+  
+#our-portfolio .btn-circle-sm {
+    width: 33px;
+    height: 33px;
+    line-height: 35px;
+    font-size: 1.2rem;
+}
+
+/* our Portfolio css ends here */
+
+/* our team css starts here */
+#our-team{
+    margin-top: 100px;
+    padding: 60px ;
+    background-color: rgba(242, 249, 255, 1);
+}
+#our-team .container .h6{
+    color: #2370C8;
+    font-weight: 600;
+}
+#our-team .container .image{
+    height: 320px;
+    width: 350px;
+}
+
+/* our team css ends here */
+
+/* our pricing css starts here */
+#our-pricing{
+    margin-top: 100px;
+}
+#our-pricing .h6{
+    color: rgba(35, 112, 200, 1);
+    font-weight: 600;
+    margin-left: 6px;
+}
+#our-pricing .h2{
+    margin-left: 5px;
+}
+#our-pricing .form-switch{
+    margin-left: 200px;
+}
+#our-pricing .circle{
+    border-radius: 50%;
+    /* border-bottom-left-radius: 3px ; */
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    position: absolute;
+    padding: 35px;
+    left: 10px;
+    top: 35px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 125px;
+    margin-top: 45px;
+    /* margin-top: 20%; */
+    background-color:#D6EDFF ;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #our-pricing #doller-50{
+      margin-left: 100px;
+      margin-top: 35px;
+  }
+
+  #our-pricing .month{
+      margin-top: 50px;
+  }
+
+  #our-pricing li{
+    line-height: 1.7;
+    margin-left: -25px;
+  }
+
+  #our-pricing .rounded-pill{
+      margin-left: 15px;
+      padding: 5px;
+      margin-top: 15px;
+      background: rgba(35, 112, 200, 1);
+      color: white;
+      box-shadow: 0px 4px 16px rgba(55, 130, 215, 0.16);
+      border: 0;
+      
+  }
+
+  #our-pricing #pill2{
+    margin-left: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    background: white;
+    color: rgba(35, 112, 200, 1);
+
+}
+
+  #our-pricing #basic-plan{
+    background: #FFFFFF;
+
+    max-width: 30%;
+  }
+
+  #our-pricing #std-plan{
+    background: #358aeb;
+
+    max-width: 30%;
+  }
+
+
+  #our-pricing .b-p{
+      margin-top: 30px;
+  }
+
+  #our-pricing #mid-plan{
+      margin-left: -50px;
+  }
+
+  #our-pricing #mid-plan2{
+      margin-left: -50px;
+  }
+
+  #our-pricing .first-plan{
+      margin-left: 20px;
+  }
+
+/* our pricing css ends here */
+
+/* blue bg css starts here */
+#blue_bg{
+    background-color: #3b84d8;
+    margin-top: 100px;
+    margin-bottom: 10%;
+}
+
+#blue_bg .container{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+#blue_bg .cardrow{
+    margin-top: 50px;
+}
+#blue_bg .cards{
+    background-color: #3b84d8;
+    border-color: rgb(183, 182, 243);
+    border-width: 1px;
+    width: 28rem;
+    padding: 20px 20px 20px 20px;
+}
+/* blue bg css ends here */
+
+/* our blog css start here */
+#our_blog{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#our_blog .c1{
+    margin-top: 150px;
+}
+#our_blog .c1 .c1h6{
+    color: rgba(35, 112, 200, 1);
+    font-weight: 600;
+}
+#our_blog .c1 .hr{
+    color: rgba(35, 112, 200, 1);
+}
+#our_blog #inputemail{
+    border-radius: 0;
+}
+#our_blog #button-addon2{
+    border-radius: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#our_blog .c1 .input-group{
+    padding-right: 70px;
+}
+#our_blog .cb1{
+    background-color: #388ef0;
+}
+#our_blog .cards2{
+    border-color: #388ef0;
+}
+#our_blog .card-subtitle2{
+    color: #388ef0;
+    font-weight: 600;
+}
+#our_blog .card-text{
+    margin-top: 25px;
+}
+#our_blog .arrow_btns{
+    margin-left: 92%;
+margin-bottom: -35%;
+
+}
+/* our blog css end here */
+
+/* footer css starts here */
+#footer{
+    background-color: rgba(242, 249, 255, 1);
+}
+#footer .logo{
+    font-size: 40px;
+    font-weight: 600;
+    color: #2a7ad6;
+    letter-spacing:2px;
+}
+#footer .ourlinks{
+    margin-left: 100px;
+}
+#footer .ourcomapny{
+    margin-left: 50px;
+}
+#footer .ourservices{
+    margin-left: 45px;
+}
+#footer #hr{
+    color: #2a7ad6;
+    border-width: 2px;
+}
+/* footer css ends here */
