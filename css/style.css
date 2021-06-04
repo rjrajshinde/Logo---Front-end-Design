@@ -13,7 +13,7 @@ body{
 
 /* header section starts here */
 #header{
-    background: url("/images/Rectangle1.png") no-repeat;
+    background: url("../images/Rectangle1.png") no-repeat;
     background-size: cover;
     height: 80vh;
     background-position: left;
